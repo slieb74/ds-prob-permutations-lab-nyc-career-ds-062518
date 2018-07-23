@@ -29,7 +29,7 @@ Now, writing this out is not an issue when $n$ is small. What if $n$ grows thoug
 setlist = 10*9*8*7*6*5*4*3*2*1
 ```
 
-You woulnd't want to repeat this for 25 songs...  Let's create a funstion for this!
+You wouldn't want to repeat this for 25 songs...  Let's create a function for this!
 
 What you'll do below is:
 
@@ -63,7 +63,8 @@ None
 ## Exercise 1: appointments
 
 Let's go back to the appointments exercise from the last lab. A teaching assistant is holding office hours so students can make appointments. She has 6 appointments scheduled today, 3 by male students, and 3 by female students. From what you learned in the permutations lecture, you now have a more structured way of getting to the whole sample space!
-Hint: a permutation with replacement is needed here. Think carefully of what needs to go in the denominator and the numerator respectively. 
+
+**_Hint:_** A permutation with replacement is needed here. Think carefully of what needs to go in the denominator and the numerator respectively. 
 
 
 ```python
@@ -109,7 +110,7 @@ prob_unlock = None
 prob_unlock
 ```
 
-Right before you lost your phone you ate a pretzel, and you are pretty sure a grease pattern was left on the four crucial digits of your screen. The four letters in your access code are 3,4,7 and 8, and you realize that this information can increase the thieve's chances massively. Assuming the thieve interprets the smudgemarks in an intelligent way, what are the chances that the phone will be unlocked successfully?
+Right before you lost your phone you ate a pretzel, and you are pretty sure a grease pattern was left on the four crucial digits of your screen. The four letters in your access code are 3,4,7 and 8, and you realize that this information can increase the thief's chances massively. Assuming the thief interprets the smudgemarks in an intelligent way, what are the chances that the phone will be unlocked successfully?
 
 
 ```python
